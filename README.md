@@ -64,6 +64,17 @@ npm run preview
 
 ---
 
+## ⚡ Cloudflare Pages Deployment
+
+This project is configured for Cloudflare Pages with automatic SPA routing (`_redirects`) and performance headers (`_headers`).
+
+### Cloudflare Pages Build Settings:
+- **Framework Preset**: `Vite`
+- **Build Command**: `npm run build`
+- **Build Output Directory**: `dist`
+- **Root Directory**: `/` (or leave default)
+- **Environment Variables** (Optional): `NODE_VERSION` = `20`
+
 ## 📝 Updating Chapter Leaders & Team Info
 
 To update the placeholder leader names, real photos, bios, or LinkedIn URLs, edit [`src/data/chapterData.ts`](./src/data/chapterData.ts):

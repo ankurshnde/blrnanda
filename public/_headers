@@ -1,0 +1,29 @@
+# Cloudflare Pages Headers Configuration
+
+# Global Security & Performance Headers
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Cache static assets with hashes indefinitely
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache SEO and text files
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+/llm.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=86400
