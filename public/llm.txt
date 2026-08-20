@@ -1,0 +1,36 @@
+# Project NANDA — Bangalore Chapter
+> Regional hub for advancing decentralized AI-agent infrastructure in Bengaluru, India.
+
+## Mission
+Project NANDA (Network of AI Agents in Decentralized Architecture) builds foundational infrastructure for the Open Agentic Web — enabling trillions of autonomous AI agents to discover, collaborate, and transact securely across organizational boundaries.
+
+Project NANDA develops open agent registries, cross-platform bridges (A2A, MCP), and verifiable trust primitives to empower a decentralized ecosystem.
+
+## Key Facts & Stats
+- Organization: Project NANDA (Network of AI Agents in Decentralized Architecture)
+- Regional Chapter: Bangalore (Bengaluru, Karnataka, India)
+- Global Stats: 10,000+ Community Members, 75+ Active Projects, 15+ Research Papers, 20+ Global Chapters
+- Architecture: Decentralized, protocol-neutral, open-source (A2A, MCP, HTTPS)
+
+## Chapter Leadership
+- Santanu Bhattacharya — Chapter Lead (https://www.linkedin.com/in/santanub/)
+- Sneha Biradar — Co-Leader (https://www.linkedin.com/in/snehabiradar2424/)
+
+## Featured Project: Doot
+- Name: Doot
+- Tagline: A Personal AI Agent for Every Indian Citizen
+- Description: Citizen-centric agentic AI built on India's Digital Public Infrastructure (DPI) — Aadhaar, UPI, DigiLocker — empowering 1.4 billion people with their own intelligent digital representative.
+- Architecture: Agent One (6-Layer modular stack with voice-first multilingual interaction in 22+ Indian languages).
+- Whitepaper: https://digidoot.in/Doot_WhitePaper.pdf
+- Website: https://digidoot.in/
+
+## Official Links & Resources
+- Website: https://projectnanda.org
+- Bangalore Chapter: https://bangalore.projectnanda.org/
+- Join Chapter Form: https://forms.gle/kt1g8CtfrtMxJ4zw5
+- WhatsApp Community: https://chat.whatsapp.com/F4FgELgoRqjFdX8XvDn9h2
+- Events (Lu.ma): https://lu.ma/nanda
+- LinkedIn: https://www.linkedin.com/company/projectnanda/
+- X / Twitter: https://x.com/projnanda
+- GitHub: https://github.com/projnanda
+- Contact Email: ankur@agenticnet.org
