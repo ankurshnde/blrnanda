@@ -16,8 +16,12 @@ Project NANDA develops open agent registries, cross-platform bridges (A2A, MCP),
 - Santanu Bhattacharya — Chapter Lead (https://www.linkedin.com/in/santanub/)
 - Sneha Biradar — Co-Leader (https://www.linkedin.com/in/snehabiradar2424/)
 
-## Ecosystem & Other Projects
-- Doot (https://digidoot.in/) — Personal AI Agent for Indian citizens built on India's Digital Public Infrastructure (DPI).
+## Live Projects
+- Doot: https://digidoot.in/
+- KumbhDoot: https://www.kumbhdoot.org/
+- Nanda Town: https://nandatown.projectnanda.org/
+- NEST: https://nest.projectnanda.org/
+- Join39: https://www.join39.org/
 
 ## Official Links & Resources
 - Website: https://projectnanda.org

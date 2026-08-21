@@ -4,6 +4,14 @@ import { CHAPTER_INFO } from '../data/chapterData';
 import { LinkedinIcon, GithubIcon, TwitterIcon } from './Icons';
 
 export const Footer: React.FC = () => {
+  const liveProjects = [
+    { name: 'Doot', url: 'https://digidoot.in/' },
+    { name: 'KumbhDoot', url: 'https://www.kumbhdoot.org/' },
+    { name: 'Nanda Town', url: 'https://nandatown.projectnanda.org/' },
+    { name: 'NEST', url: 'https://nest.projectnanda.org/' },
+    { name: 'Join39', url: 'https://www.join39.org/' },
+  ];
+
   return (
     <footer className="bg-slate-950 border-t border-white/10 pt-12 pb-10 px-4 sm:px-6 lg:px-8 relative z-10 text-slate-400 text-xs sm:text-sm">
       <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-10">
@@ -103,26 +111,25 @@ export const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Col 3: Other Projects */}
+        {/* Col 3: Live Projects */}
         <div className="space-y-3">
           <h4 className="font-bold text-white text-xs uppercase tracking-wider">
-            Other Projects
+            Live Projects
           </h4>
           <ul className="space-y-2 text-xs">
-            <li>
-              <a
-                href="https://digidoot.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-slate-300 hover:text-primary transition-colors group"
-              >
-                <span>Doot</span>
-                <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-primary transition-colors" />
-              </a>
-              <p className="text-[11px] text-slate-500 mt-0.5">
-                Personal AI agent for Indian citizens built on DPI.
-              </p>
-            </li>
+            {liveProjects.map((project) => (
+              <li key={project.name}>
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-slate-300 hover:text-primary transition-colors group"
+                >
+                  <span>{project.name}</span>
+                  <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-primary transition-colors" />
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 
