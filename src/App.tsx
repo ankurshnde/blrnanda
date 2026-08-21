@@ -5,7 +5,6 @@ import { Stats } from './components/Stats';
 import { AboutSection } from './components/AboutSection';
 import { ChapterLeaders } from './components/ChapterLeaders';
 import { WhyJoin } from './components/WhyJoin';
-import { FeaturedProject } from './components/FeaturedProject';
 import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { JoinModal } from './components/JoinModal';
@@ -40,9 +39,6 @@ export const App: React.FC = () => {
         {/* Chapter Leaders (Santanu Bhattacharya & Sneha Biradar) */}
         <ChapterLeaders />
 
-        {/* Featured Project Spotlight: Doot (Immediately after Chapter Leaders) */}
-        <FeaturedProject />
-
         {/* 4 Value Pillars */}
         <WhyJoin onOpenJoinModal={handleOpenModal} />
 
@@ -50,7 +46,7 @@ export const App: React.FC = () => {
         <FaqSection />
       </main>
 
-      {/* Clean Footer */}
+      {/* Clean Footer with Other Projects */}
       <Footer />
 
       {/* Interactive Join Modal */}

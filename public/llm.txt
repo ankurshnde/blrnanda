@@ -16,13 +16,8 @@ Project NANDA develops open agent registries, cross-platform bridges (A2A, MCP),
 - Santanu Bhattacharya — Chapter Lead (https://www.linkedin.com/in/santanub/)
 - Sneha Biradar — Co-Leader (https://www.linkedin.com/in/snehabiradar2424/)
 
-## Featured Project: Doot
-- Name: Doot
-- Tagline: A Personal AI Agent for Every Indian Citizen
-- Description: Citizen-centric agentic AI built on India's Digital Public Infrastructure (DPI) — Aadhaar, UPI, DigiLocker — empowering 1.4 billion people with their own intelligent digital representative.
-- Architecture: Agent One (6-Layer modular stack with voice-first multilingual interaction in 22+ Indian languages).
-- Whitepaper: https://digidoot.in/Doot_WhitePaper.pdf
-- Website: https://digidoot.in/
+## Ecosystem & Other Projects
+- Doot (https://digidoot.in/) — Personal AI Agent for Indian citizens built on India's Digital Public Infrastructure (DPI).
 
 ## Official Links & Resources
 - Website: https://projectnanda.org

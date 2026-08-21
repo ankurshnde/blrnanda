@@ -23,7 +23,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenJoinModal }) => {
     { label: 'About', href: '#about' },
     { label: 'Chapter Leaders', href: '#leaders' },
     { label: 'Why Join', href: '#why-join' },
-    { label: 'Doot', href: '#doot' },
     { label: 'FAQ', href: '#faq' },
   ];
 

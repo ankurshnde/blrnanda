@@ -1,15 +1,15 @@
 import React from 'react';
-import { MessageSquare, Calendar, Mail } from 'lucide-react';
+import { MessageSquare, Calendar, Mail, ExternalLink } from 'lucide-react';
 import { CHAPTER_INFO } from '../data/chapterData';
 import { LinkedinIcon, GithubIcon, TwitterIcon } from './Icons';
 
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-950 border-t border-white/10 pt-12 pb-10 px-4 sm:px-6 lg:px-8 relative z-10 text-slate-400 text-xs sm:text-sm">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-10">
         
         {/* Col 1: Brand & Chapter Info */}
-        <div className="space-y-3 md:col-span-1">
+        <div className="space-y-3 sm:col-span-2 md:col-span-1">
           <div className="flex items-center gap-3">
             <img
               src="/NANDA Golden Transparent.svg"
@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
           </p>
 
           {/* Social Links */}
-          <div className="flex items-center gap-2.5 pt-2 text-slate-400">
+          <div className="flex items-center gap-2 pt-2 text-slate-400">
             <a
               href={CHAPTER_INFO.socials.whatsapp}
               target="_blank"
@@ -74,7 +74,7 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Col 2: Quick Links */}
+        {/* Col 2: Chapter Navigation */}
         <div className="space-y-3">
           <h4 className="font-bold text-white text-xs uppercase tracking-wider">
             Navigation
@@ -92,12 +92,7 @@ export const Footer: React.FC = () => {
             </li>
             <li>
               <a href="#why-join" className="hover:text-primary transition-colors">
-                Why Join Project NANDA
-              </a>
-            </li>
-            <li>
-              <a href="#doot" className="hover:text-primary transition-colors">
-                Featured: Doot
+                Why Join
               </a>
             </li>
             <li>
@@ -108,7 +103,30 @@ export const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Col 3: Contact */}
+        {/* Col 3: Other Projects */}
+        <div className="space-y-3">
+          <h4 className="font-bold text-white text-xs uppercase tracking-wider">
+            Other Projects
+          </h4>
+          <ul className="space-y-2 text-xs">
+            <li>
+              <a
+                href="https://digidoot.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-slate-300 hover:text-primary transition-colors group"
+              >
+                <span>Doot</span>
+                <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-primary transition-colors" />
+              </a>
+              <p className="text-[11px] text-slate-500 mt-0.5">
+                Personal AI agent for Indian citizens built on DPI.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        {/* Col 4: Contact */}
         <div className="space-y-3">
           <h4 className="font-bold text-white text-xs uppercase tracking-wider">
             Get in Touch
